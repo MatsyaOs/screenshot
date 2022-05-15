@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2021 CutefishOS Team.
+ * Copyright (C) 2021 MatsyaOS Team.
  *
  * Author:     Reion Wong <reionwong@gmail.com>
  *
@@ -49,7 +49,7 @@ void ScreenshotView::start()
 {
     // 保存图片
     QPixmap p = qGuiApp->primaryScreen()->grabWindow(0);
-    p.save("/tmp/cutefish-screenshot.png");
+    p.save("/tmp/matsya-screenshot.png");
 
     setVisible(true);
     setKeyboardGrabEnabled(true);
@@ -80,7 +80,7 @@ void ScreenshotView::saveFile(QRect rect)
                               .arg(desktopPath)
                               .arg(QDateTime::currentDateTime().toString("yyyyMMdd_hhmmss"));
 
-    QImage image("/tmp/cutefish-screenshot.png");
+    QImage image("/tmp/matsya-screenshot.png");
     QImage cropped = image.copy(rect);
     bool saved = cropped.save(fileName);
 
@@ -91,9 +91,9 @@ void ScreenshotView::saveFile(QRect rect)
                              QDBusConnection::sessionBus());
         if (iface.isValid()) {
             QList<QVariant> args;
-            args << "cutefish-screenshot";
+            args << "matsya-screenshot";
             args << ((unsigned int) 0);
-            args << "cutefish-screenshot";
+            args << "matsya-screenshot";
             args << "";
             args << tr("The picture has been saved to %1").arg(fileName);
             args << QStringList();
@@ -111,7 +111,7 @@ void ScreenshotView::copyToClipboard(QRect rect)
 {
     setVisible(false);
 
-    QImage image("/tmp/cutefish-screenshot.png");
+    QImage image("/tmp/matsya-screenshot.png");
     QImage cropped = image.copy(rect);
     QClipboard *clipboard = qGuiApp->clipboard();
     clipboard->setImage(cropped);
@@ -122,9 +122,9 @@ void ScreenshotView::copyToClipboard(QRect rect)
                          QDBusConnection::sessionBus());
     if (iface.isValid()) {
         QList<QVariant> args;
-        args << "cutefish-screenshot";
+        args << "matsya-screenshot";
         args << ((unsigned int) 0);
-        args << "cutefish-screenshot";
+        args << "matsya-screenshot";
         args << "";
         args << tr("The picture has been saved to the clipboard");
         args << QStringList();
@@ -140,5 +140,5 @@ void ScreenshotView::copyToClipboard(QRect rect)
 
 void ScreenshotView::removeTmpFile()
 {
-    QFile("/tmp/cutefish-screenshot.png").remove();
+    QFile("/tmp/matsya-screenshot.png").remove();
 }

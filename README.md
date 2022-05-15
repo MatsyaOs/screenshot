@@ -1,6 +1,6 @@
 # Screenshot
 
-Screenshot tool for CutefishOS.
+Screenshot tool for matsyaOS.
 
 ## Dependencies
 

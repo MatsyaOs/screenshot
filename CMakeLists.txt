@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.14)
 
-project(cutefish-screenshot LANGUAGES CXX)
+project(matsya-screenshot LANGUAGES CXX)
 
 set(CMAKE_INCLUDE_CURRENT_DIR ON)
 
@@ -19,11 +19,11 @@ set(PROJECT_SOURCES
     qml.qrc
 )
 
-add_executable(cutefish-screenshot
+add_executable(matsya-screenshot
   ${PROJECT_SOURCES}
 )
 
-target_link_libraries(cutefish-screenshot
+target_link_libraries(matsya-screenshot
   PRIVATE
   Qt5::Core
   Qt5::DBus
@@ -35,14 +35,14 @@ target_link_libraries(cutefish-screenshot
 file(GLOB TS_FILES translations/*.ts)
 qt5_create_translation(QM_FILES ${TS_FILES})
 add_custom_target(translations DEPENDS ${QM_FILES} SOURCES ${TS_FILES})
-add_dependencies(cutefish-screenshot translations)
+add_dependencies(matsya-screenshot translations)
 
-install(FILES ${QM_FILES} DESTINATION /usr/share/cutefish-screenshot/translations)
+install(FILES ${QM_FILES} DESTINATION /usr/share/matsya-screenshot/translations)
 
-install(TARGETS cutefish-screenshot RUNTIME DESTINATION ${CMAKE_INSTALL_BINDIR})
+install(TARGETS matsya-screenshot RUNTIME DESTINATION ${CMAKE_INSTALL_BINDIR})
 
 install(FILES
-    cutefish-screenshot.desktop
+    matsya-screenshot.desktop
     DESTINATION /usr/share/applications/
     COMPONENT Runtime
 )

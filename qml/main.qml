@@ -1,28 +1,9 @@
-/*
- * Copyright (C) 2021 CutefishOS Team.
- *
- * Author:     Reion Wong <reionwong@gmail.com>
- *
- * This program is free software: you can redistribute it and/or modify
- * it under the terms of the GNU General Public License as published by
- * the Free Software Foundation, either version 3 of the License, or
- * any later version.
- *
- * This program is distributed in the hope that it will be useful,
- * but WITHOUT ANY WARRANTY; without even the implied warranty of
- * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
- * GNU General Public License for more details.
- *
- * You should have received a copy of the GNU General Public License
- * along with this program.  If not, see <http://www.gnu.org/licenses/>.
- */
-
 import QtQuick 2.12
 import QtQuick.Window 2.12
 import QtQuick.Controls 2.12
 import QtQuick.Layouts 1.12
 import QtGraphicalEffects 1.0
-import FishUI 1.0 as FishUI
+import MatsyaUI 1.0 as MatsyaUI
 
 Item {
     id: control
@@ -77,10 +58,10 @@ Item {
 
     function refreshImage() {
         image.source = ""
-        image.source = "file:///tmp/cutefish-screenshot.png"
+        image.source = "file:///tmp/matsya-screenshot.png"
 
         selectImage.source = ""
-        selectImage.source = "file:///tmp/cutefish-screenshot.png"
+        selectImage.source = "file:///tmp/matsyas-screenshot.png"
     }
 
     function save() {
@@ -155,7 +136,7 @@ Item {
             anchors.fill: parent
             color: "transparent"
             border.width: 2
-            border.color: FishUI.Theme.highlightColor
+            border.color: MatsyaUI.Theme.highlightColor
         }
 
         DragHandler {
@@ -183,13 +164,13 @@ Item {
         id: sizeToolTip
         visible: selectLayer.visible && selectLayer.width > 1 && selectLayer.height > 1
 
-        width: sizeLabel.implicitWidth + FishUI.Units.largeSpacing
-        height: sizeLabel.implicitHeight + FishUI.Units.largeSpacing
+        width: sizeLabel.implicitWidth + MatsyaUI.Units.largeSpacing
+        height: sizeLabel.implicitHeight + MatsyaUI.Units.largeSpacing
 
         z: 999
         x: selectLayer.x
         y: {
-            var newY = selectLayer.y - sizeToolTip.height - FishUI.Units.smallSpacing
+            var newY = selectLayer.y - sizeToolTip.height - MatsyaUI.Units.smallSpacing
 
             if (newY < control.y)
                 newY = control.y
@@ -197,15 +178,15 @@ Item {
             return newY
         }
 
-        radius: FishUI.Theme.smallRadius
+        radius: MatsyaUI.Theme.smallRadius
 
-        color: Qt.rgba(FishUI.Theme.backgroundColor.r,
-                       FishUI.Theme.backgroundColor.g,
-                       FishUI.Theme.backgroundColor.b, 0.9)
+        color: Qt.rgba(MatsyaUI.Theme.backgroundColor.r,
+                       MatsyaUI.Theme.backgroundColor.g,
+                       MatsyaUI.Theme.backgroundColor.b, 0.9)
         border.width: 1
-        border.color: Qt.rgba(FishUI.Theme.textColor.r,
-                               FishUI.Theme.textColor.g,
-                               FishUI.Theme.textColor.b, 0.15)
+        border.color: Qt.rgba(MatsyaUI.Theme.textColor.r,
+                               MatsyaUI.Theme.textColor.g,
+                               MatsyaUI.Theme.textColor.b, 0.15)
 
         Label {
             id: sizeLabel
@@ -217,8 +198,8 @@ Item {
     Rectangle {
         id: tools
 
-        width: toolsLayout.implicitWidth + FishUI.Units.largeSpacing
-        height: 36 + FishUI.Units.smallSpacing
+        width: toolsLayout.implicitWidth + MatsyaUI.Units.largeSpacing
+        height: 36 + MatsyaUI.Units.smallSpacing
 
         visible: selectLayer.visible && selectLayer.width > 1 && selectLayer.height > 1
         z: 999
@@ -242,10 +223,10 @@ Item {
 //                newY = control.height - tools.height
 
             // 选中区域与工具栏高度大于总高度
-            if (selectLayer.y + selectLayer.height + tools.height + FishUI.Units.smallSpacing >= control.height) {
-                newY = selectLayer.y - tools.height - FishUI.Units.smallSpacing
+            if (selectLayer.y + selectLayer.height + tools.height + MatsyaUI.Units.smallSpacing >= control.height) {
+                newY = selectLayer.y - tools.height - MatsyaUI.Units.smallSpacing
             } else {
-                newY = selectLayer.y + selectLayer.height + FishUI.Units.smallSpacing
+                newY = selectLayer.y + selectLayer.height + MatsyaUI.Units.smallSpacing
             }
 
             if (newY < control.y || newY > control.y + control.height)
@@ -254,7 +235,7 @@ Item {
             return newY
         }
 
-        radius: FishUI.Theme.smallRadius
+        radius: MatsyaUI.Theme.smallRadius
         color: "white"
 
         MouseArea {
@@ -265,27 +246,27 @@ Item {
             id: toolsLayout
             anchors.fill: parent
 
-            anchors.leftMargin: FishUI.Units.smallSpacing
-            anchors.rightMargin: FishUI.Units.smallSpacing
-            anchors.topMargin: FishUI.Units.smallSpacing / 2
-            anchors.bottomMargin: FishUI.Units.smallSpacing / 2
+            anchors.leftMargin: MatsyaUI.Units.smallSpacing
+            anchors.rightMargin: MatsyaUI.Units.smallSpacing
+            anchors.topMargin: MatsyaUI.Units.smallSpacing / 2
+            anchors.bottomMargin: MatsyaUI.Units.smallSpacing / 2
 
             ImageButton {
-                iconMargins: FishUI.Units.largeSpacing
+                iconMargins: MatsyaUI.Units.largeSpacing
                 size: 36
                 source: "qrc:/images/save.svg"
                 onClicked: control.save()
             }
 
             ImageButton {
-                iconMargins: FishUI.Units.largeSpacing
+                iconMargins: MatsyaUI.Units.largeSpacing
                 size: 36
                 source: "qrc:/images/cancel.svg"
                 onClicked: view.quit()
             }
 
             ImageButton {
-                iconMargins: FishUI.Units.largeSpacing
+                iconMargins: MatsyaUI.Units.largeSpacing
                 size: 36
                 source: "qrc:/images/ok.svg"
                 onClicked: control.copyToClipboard()
