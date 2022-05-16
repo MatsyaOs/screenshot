@@ -67,10 +67,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/tokyo/clone/cuteclone/screenshot
+CMAKE_SOURCE_DIR = /home/tokyo/Documents/GitHub/screenshot
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/tokyo/clone/cuteclone/screenshot/build
+CMAKE_BINARY_DIR = /home/tokyo/Documents/GitHub/screenshot/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -145,9 +145,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/tokyo/clone/cuteclone/screenshot/build/CMakeFiles /home/tokyo/clone/cuteclone/screenshot/build//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tokyo/Documents/GitHub/screenshot/build/CMakeFiles /home/tokyo/Documents/GitHub/screenshot/build//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/tokyo/clone/cuteclone/screenshot/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tokyo/Documents/GitHub/screenshot/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -189,84 +189,84 @@ translations/fast:
 .PHONY : translations/fast
 
 #=============================================================================
-# Target rules for targets named cutefish-screenshot
+# Target rules for targets named matsya-screenshot
 
 # Build rule for target.
-cutefish-screenshot: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 cutefish-screenshot
-.PHONY : cutefish-screenshot
+matsya-screenshot: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 matsya-screenshot
+.PHONY : matsya-screenshot
 
 # fast build rule for target.
-cutefish-screenshot/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cutefish-screenshot.dir/build.make CMakeFiles/cutefish-screenshot.dir/build
-.PHONY : cutefish-screenshot/fast
+matsya-screenshot/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/matsya-screenshot.dir/build.make CMakeFiles/matsya-screenshot.dir/build
+.PHONY : matsya-screenshot/fast
 
 #=============================================================================
-# Target rules for targets named cutefish-screenshot_autogen
+# Target rules for targets named matsya-screenshot_autogen
 
 # Build rule for target.
-cutefish-screenshot_autogen: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 cutefish-screenshot_autogen
-.PHONY : cutefish-screenshot_autogen
+matsya-screenshot_autogen: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 matsya-screenshot_autogen
+.PHONY : matsya-screenshot_autogen
 
 # fast build rule for target.
-cutefish-screenshot_autogen/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cutefish-screenshot_autogen.dir/build.make CMakeFiles/cutefish-screenshot_autogen.dir/build
-.PHONY : cutefish-screenshot_autogen/fast
+matsya-screenshot_autogen/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/matsya-screenshot_autogen.dir/build.make CMakeFiles/matsya-screenshot_autogen.dir/build
+.PHONY : matsya-screenshot_autogen/fast
 
-cutefish-screenshot_autogen/EWIEGA46WW/qrc_qml.o: cutefish-screenshot_autogen/EWIEGA46WW/qrc_qml.cpp.o
+matsya-screenshot_autogen/EWIEGA46WW/qrc_qml.o: matsya-screenshot_autogen/EWIEGA46WW/qrc_qml.cpp.o
 
-.PHONY : cutefish-screenshot_autogen/EWIEGA46WW/qrc_qml.o
-
-# target to build an object file
-cutefish-screenshot_autogen/EWIEGA46WW/qrc_qml.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cutefish-screenshot.dir/build.make CMakeFiles/cutefish-screenshot.dir/cutefish-screenshot_autogen/EWIEGA46WW/qrc_qml.cpp.o
-.PHONY : cutefish-screenshot_autogen/EWIEGA46WW/qrc_qml.cpp.o
-
-cutefish-screenshot_autogen/EWIEGA46WW/qrc_qml.i: cutefish-screenshot_autogen/EWIEGA46WW/qrc_qml.cpp.i
-
-.PHONY : cutefish-screenshot_autogen/EWIEGA46WW/qrc_qml.i
-
-# target to preprocess a source file
-cutefish-screenshot_autogen/EWIEGA46WW/qrc_qml.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cutefish-screenshot.dir/build.make CMakeFiles/cutefish-screenshot.dir/cutefish-screenshot_autogen/EWIEGA46WW/qrc_qml.cpp.i
-.PHONY : cutefish-screenshot_autogen/EWIEGA46WW/qrc_qml.cpp.i
-
-cutefish-screenshot_autogen/EWIEGA46WW/qrc_qml.s: cutefish-screenshot_autogen/EWIEGA46WW/qrc_qml.cpp.s
-
-.PHONY : cutefish-screenshot_autogen/EWIEGA46WW/qrc_qml.s
-
-# target to generate assembly for a file
-cutefish-screenshot_autogen/EWIEGA46WW/qrc_qml.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cutefish-screenshot.dir/build.make CMakeFiles/cutefish-screenshot.dir/cutefish-screenshot_autogen/EWIEGA46WW/qrc_qml.cpp.s
-.PHONY : cutefish-screenshot_autogen/EWIEGA46WW/qrc_qml.cpp.s
-
-cutefish-screenshot_autogen/mocs_compilation.o: cutefish-screenshot_autogen/mocs_compilation.cpp.o
-
-.PHONY : cutefish-screenshot_autogen/mocs_compilation.o
+.PHONY : matsya-screenshot_autogen/EWIEGA46WW/qrc_qml.o
 
 # target to build an object file
-cutefish-screenshot_autogen/mocs_compilation.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cutefish-screenshot.dir/build.make CMakeFiles/cutefish-screenshot.dir/cutefish-screenshot_autogen/mocs_compilation.cpp.o
-.PHONY : cutefish-screenshot_autogen/mocs_compilation.cpp.o
+matsya-screenshot_autogen/EWIEGA46WW/qrc_qml.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/matsya-screenshot.dir/build.make CMakeFiles/matsya-screenshot.dir/matsya-screenshot_autogen/EWIEGA46WW/qrc_qml.cpp.o
+.PHONY : matsya-screenshot_autogen/EWIEGA46WW/qrc_qml.cpp.o
 
-cutefish-screenshot_autogen/mocs_compilation.i: cutefish-screenshot_autogen/mocs_compilation.cpp.i
+matsya-screenshot_autogen/EWIEGA46WW/qrc_qml.i: matsya-screenshot_autogen/EWIEGA46WW/qrc_qml.cpp.i
 
-.PHONY : cutefish-screenshot_autogen/mocs_compilation.i
+.PHONY : matsya-screenshot_autogen/EWIEGA46WW/qrc_qml.i
 
 # target to preprocess a source file
-cutefish-screenshot_autogen/mocs_compilation.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cutefish-screenshot.dir/build.make CMakeFiles/cutefish-screenshot.dir/cutefish-screenshot_autogen/mocs_compilation.cpp.i
-.PHONY : cutefish-screenshot_autogen/mocs_compilation.cpp.i
+matsya-screenshot_autogen/EWIEGA46WW/qrc_qml.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/matsya-screenshot.dir/build.make CMakeFiles/matsya-screenshot.dir/matsya-screenshot_autogen/EWIEGA46WW/qrc_qml.cpp.i
+.PHONY : matsya-screenshot_autogen/EWIEGA46WW/qrc_qml.cpp.i
 
-cutefish-screenshot_autogen/mocs_compilation.s: cutefish-screenshot_autogen/mocs_compilation.cpp.s
+matsya-screenshot_autogen/EWIEGA46WW/qrc_qml.s: matsya-screenshot_autogen/EWIEGA46WW/qrc_qml.cpp.s
 
-.PHONY : cutefish-screenshot_autogen/mocs_compilation.s
+.PHONY : matsya-screenshot_autogen/EWIEGA46WW/qrc_qml.s
 
 # target to generate assembly for a file
-cutefish-screenshot_autogen/mocs_compilation.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cutefish-screenshot.dir/build.make CMakeFiles/cutefish-screenshot.dir/cutefish-screenshot_autogen/mocs_compilation.cpp.s
-.PHONY : cutefish-screenshot_autogen/mocs_compilation.cpp.s
+matsya-screenshot_autogen/EWIEGA46WW/qrc_qml.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/matsya-screenshot.dir/build.make CMakeFiles/matsya-screenshot.dir/matsya-screenshot_autogen/EWIEGA46WW/qrc_qml.cpp.s
+.PHONY : matsya-screenshot_autogen/EWIEGA46WW/qrc_qml.cpp.s
+
+matsya-screenshot_autogen/mocs_compilation.o: matsya-screenshot_autogen/mocs_compilation.cpp.o
+
+.PHONY : matsya-screenshot_autogen/mocs_compilation.o
+
+# target to build an object file
+matsya-screenshot_autogen/mocs_compilation.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/matsya-screenshot.dir/build.make CMakeFiles/matsya-screenshot.dir/matsya-screenshot_autogen/mocs_compilation.cpp.o
+.PHONY : matsya-screenshot_autogen/mocs_compilation.cpp.o
+
+matsya-screenshot_autogen/mocs_compilation.i: matsya-screenshot_autogen/mocs_compilation.cpp.i
+
+.PHONY : matsya-screenshot_autogen/mocs_compilation.i
+
+# target to preprocess a source file
+matsya-screenshot_autogen/mocs_compilation.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/matsya-screenshot.dir/build.make CMakeFiles/matsya-screenshot.dir/matsya-screenshot_autogen/mocs_compilation.cpp.i
+.PHONY : matsya-screenshot_autogen/mocs_compilation.cpp.i
+
+matsya-screenshot_autogen/mocs_compilation.s: matsya-screenshot_autogen/mocs_compilation.cpp.s
+
+.PHONY : matsya-screenshot_autogen/mocs_compilation.s
+
+# target to generate assembly for a file
+matsya-screenshot_autogen/mocs_compilation.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/matsya-screenshot.dir/build.make CMakeFiles/matsya-screenshot.dir/matsya-screenshot_autogen/mocs_compilation.cpp.s
+.PHONY : matsya-screenshot_autogen/mocs_compilation.cpp.s
 
 src/main.o: src/main.cpp.o
 
@@ -274,7 +274,7 @@ src/main.o: src/main.cpp.o
 
 # target to build an object file
 src/main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cutefish-screenshot.dir/build.make CMakeFiles/cutefish-screenshot.dir/src/main.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/matsya-screenshot.dir/build.make CMakeFiles/matsya-screenshot.dir/src/main.cpp.o
 .PHONY : src/main.cpp.o
 
 src/main.i: src/main.cpp.i
@@ -283,7 +283,7 @@ src/main.i: src/main.cpp.i
 
 # target to preprocess a source file
 src/main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cutefish-screenshot.dir/build.make CMakeFiles/cutefish-screenshot.dir/src/main.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/matsya-screenshot.dir/build.make CMakeFiles/matsya-screenshot.dir/src/main.cpp.i
 .PHONY : src/main.cpp.i
 
 src/main.s: src/main.cpp.s
@@ -292,7 +292,7 @@ src/main.s: src/main.cpp.s
 
 # target to generate assembly for a file
 src/main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cutefish-screenshot.dir/build.make CMakeFiles/cutefish-screenshot.dir/src/main.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/matsya-screenshot.dir/build.make CMakeFiles/matsya-screenshot.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
 src/screenshotview.o: src/screenshotview.cpp.o
@@ -301,7 +301,7 @@ src/screenshotview.o: src/screenshotview.cpp.o
 
 # target to build an object file
 src/screenshotview.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cutefish-screenshot.dir/build.make CMakeFiles/cutefish-screenshot.dir/src/screenshotview.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/matsya-screenshot.dir/build.make CMakeFiles/matsya-screenshot.dir/src/screenshotview.cpp.o
 .PHONY : src/screenshotview.cpp.o
 
 src/screenshotview.i: src/screenshotview.cpp.i
@@ -310,7 +310,7 @@ src/screenshotview.i: src/screenshotview.cpp.i
 
 # target to preprocess a source file
 src/screenshotview.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cutefish-screenshot.dir/build.make CMakeFiles/cutefish-screenshot.dir/src/screenshotview.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/matsya-screenshot.dir/build.make CMakeFiles/matsya-screenshot.dir/src/screenshotview.cpp.i
 .PHONY : src/screenshotview.cpp.i
 
 src/screenshotview.s: src/screenshotview.cpp.s
@@ -319,7 +319,7 @@ src/screenshotview.s: src/screenshotview.cpp.s
 
 # target to generate assembly for a file
 src/screenshotview.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cutefish-screenshot.dir/build.make CMakeFiles/cutefish-screenshot.dir/src/screenshotview.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/matsya-screenshot.dir/build.make CMakeFiles/matsya-screenshot.dir/src/screenshotview.cpp.s
 .PHONY : src/screenshotview.cpp.s
 
 # Help Target
@@ -334,15 +334,15 @@ help:
 	@echo "... install/strip"
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
-	@echo "... cutefish-screenshot_autogen"
+	@echo "... matsya-screenshot_autogen"
 	@echo "... translations"
-	@echo "... cutefish-screenshot"
-	@echo "... cutefish-screenshot_autogen/EWIEGA46WW/qrc_qml.o"
-	@echo "... cutefish-screenshot_autogen/EWIEGA46WW/qrc_qml.i"
-	@echo "... cutefish-screenshot_autogen/EWIEGA46WW/qrc_qml.s"
-	@echo "... cutefish-screenshot_autogen/mocs_compilation.o"
-	@echo "... cutefish-screenshot_autogen/mocs_compilation.i"
-	@echo "... cutefish-screenshot_autogen/mocs_compilation.s"
+	@echo "... matsya-screenshot"
+	@echo "... matsya-screenshot_autogen/EWIEGA46WW/qrc_qml.o"
+	@echo "... matsya-screenshot_autogen/EWIEGA46WW/qrc_qml.i"
+	@echo "... matsya-screenshot_autogen/EWIEGA46WW/qrc_qml.s"
+	@echo "... matsya-screenshot_autogen/mocs_compilation.o"
+	@echo "... matsya-screenshot_autogen/mocs_compilation.i"
+	@echo "... matsya-screenshot_autogen/mocs_compilation.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"

@@ -1,5 +1,5 @@
-/home/tokyo/clone/cuteclone/screenshot/build/cutefish-screenshot_autogen/UVLADIE3JM/moc_screenshotview.cpp: /home/tokyo/clone/cuteclone/screenshot/src/screenshotview.h \
-  /home/tokyo/clone/cuteclone/screenshot/build/cutefish-screenshot_autogen/moc_predefs.h \
+/home/tokyo/Documents/GitHub/screenshot/build/matsya-screenshot_autogen/UVLADIE3JM/moc_screenshotview.cpp: /home/tokyo/Documents/GitHub/screenshot/src/screenshotview.h \
+  /home/tokyo/Documents/GitHub/screenshot/build/matsya-screenshot_autogen/moc_predefs.h \
   /usr/include/GL/gl.h \
   /usr/include/assert.h \
   /usr/include/c++/10/algorithm \

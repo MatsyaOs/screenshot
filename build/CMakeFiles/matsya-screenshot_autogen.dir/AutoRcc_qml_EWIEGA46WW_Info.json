@@ -1,0 +1,26 @@
+{
+	"BUILD_DIR" : "/home/tokyo/Documents/GitHub/screenshot/build/matsya-screenshot_autogen",
+	"CMAKE_BINARY_DIR" : "/home/tokyo/Documents/GitHub/screenshot/build",
+	"CMAKE_CURRENT_BINARY_DIR" : "/home/tokyo/Documents/GitHub/screenshot/build",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/home/tokyo/Documents/GitHub/screenshot",
+	"CMAKE_SOURCE_DIR" : "/home/tokyo/Documents/GitHub/screenshot",
+	"INCLUDE_DIR" : "/home/tokyo/Documents/GitHub/screenshot/build/matsya-screenshot_autogen/include",
+	"INPUTS" : 
+	[
+		"/home/tokyo/Documents/GitHub/screenshot/qml/ImageButton.qml",
+		"/home/tokyo/Documents/GitHub/screenshot/qml/main.qml",
+		"/home/tokyo/Documents/GitHub/screenshot/images/ok.svg",
+		"/home/tokyo/Documents/GitHub/screenshot/images/save.svg",
+		"/home/tokyo/Documents/GitHub/screenshot/images/cancel.svg"
+	],
+	"LOCK_FILE" : "/home/tokyo/Documents/GitHub/screenshot/build/CMakeFiles/matsya-screenshot_autogen.dir/AutoRcc_qml_EWIEGA46WW_Lock.lock",
+	"MULTI_CONFIG" : false,
+	"OPTIONS" : [ "-name", "qml" ],
+	"OUTPUT_CHECKSUM" : "EWIEGA46WW",
+	"OUTPUT_NAME" : "qrc_qml.cpp",
+	"RCC_EXECUTABLE" : "/usr/lib/qt5/bin/rcc",
+	"RCC_LIST_OPTIONS" : [ "--list" ],
+	"SETTINGS_FILE" : "/home/tokyo/Documents/GitHub/screenshot/build/CMakeFiles/matsya-screenshot_autogen.dir/AutoRcc_qml_EWIEGA46WW_Used.txt",
+	"SOURCE" : "/home/tokyo/Documents/GitHub/screenshot/qml.qrc",
+	"VERBOSITY" : 0
+}

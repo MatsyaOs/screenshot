@@ -63,16 +63,16 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/tokyo/clone/cuteclone/screenshot
+CMAKE_SOURCE_DIR = /home/tokyo/Documents/GitHub/screenshot
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/tokyo/clone/cuteclone/screenshot/build
+CMAKE_BINARY_DIR = /home/tokyo/Documents/GitHub/screenshot/build
 
 #=============================================================================
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/cutefish-screenshot.dir/all
+all: CMakeFiles/matsya-screenshot.dir/all
 
 .PHONY : all
 
@@ -83,8 +83,8 @@ preinstall:
 
 # The main recursive "clean" target.
 clean: CMakeFiles/translations.dir/clean
-clean: CMakeFiles/cutefish-screenshot.dir/clean
-clean: CMakeFiles/cutefish-screenshot_autogen.dir/clean
+clean: CMakeFiles/matsya-screenshot.dir/clean
+clean: CMakeFiles/matsya-screenshot_autogen.dir/clean
 
 .PHONY : clean
 
@@ -95,14 +95,14 @@ clean: CMakeFiles/cutefish-screenshot_autogen.dir/clean
 CMakeFiles/translations.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/translations.dir/build.make CMakeFiles/translations.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/translations.dir/build.make CMakeFiles/translations.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tokyo/clone/cuteclone/screenshot/build/CMakeFiles --progress-num=7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94,95,96,97,98,99,100 "Built target translations"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tokyo/Documents/GitHub/screenshot/build/CMakeFiles --progress-num=7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94,95,96,97,98,99,100 "Built target translations"
 .PHONY : CMakeFiles/translations.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/translations.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/tokyo/clone/cuteclone/screenshot/build/CMakeFiles 94
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tokyo/Documents/GitHub/screenshot/build/CMakeFiles 94
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/translations.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/tokyo/clone/cuteclone/screenshot/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tokyo/Documents/GitHub/screenshot/build/CMakeFiles 0
 .PHONY : CMakeFiles/translations.dir/rule
 
 # Convenience name for target.
@@ -116,59 +116,59 @@ CMakeFiles/translations.dir/clean:
 .PHONY : CMakeFiles/translations.dir/clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/cutefish-screenshot.dir
+# Target rules for target CMakeFiles/matsya-screenshot.dir
 
 # All Build rule for target.
-CMakeFiles/cutefish-screenshot.dir/all: CMakeFiles/translations.dir/all
-CMakeFiles/cutefish-screenshot.dir/all: CMakeFiles/cutefish-screenshot_autogen.dir/all
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cutefish-screenshot.dir/build.make CMakeFiles/cutefish-screenshot.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cutefish-screenshot.dir/build.make CMakeFiles/cutefish-screenshot.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tokyo/clone/cuteclone/screenshot/build/CMakeFiles --progress-num=1,2,3,4,5 "Built target cutefish-screenshot"
-.PHONY : CMakeFiles/cutefish-screenshot.dir/all
+CMakeFiles/matsya-screenshot.dir/all: CMakeFiles/translations.dir/all
+CMakeFiles/matsya-screenshot.dir/all: CMakeFiles/matsya-screenshot_autogen.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/matsya-screenshot.dir/build.make CMakeFiles/matsya-screenshot.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/matsya-screenshot.dir/build.make CMakeFiles/matsya-screenshot.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tokyo/Documents/GitHub/screenshot/build/CMakeFiles --progress-num=1,2,3,4,5 "Built target matsya-screenshot"
+.PHONY : CMakeFiles/matsya-screenshot.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/cutefish-screenshot.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/tokyo/clone/cuteclone/screenshot/build/CMakeFiles 100
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/cutefish-screenshot.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/tokyo/clone/cuteclone/screenshot/build/CMakeFiles 0
-.PHONY : CMakeFiles/cutefish-screenshot.dir/rule
+CMakeFiles/matsya-screenshot.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tokyo/Documents/GitHub/screenshot/build/CMakeFiles 100
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/matsya-screenshot.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tokyo/Documents/GitHub/screenshot/build/CMakeFiles 0
+.PHONY : CMakeFiles/matsya-screenshot.dir/rule
 
 # Convenience name for target.
-cutefish-screenshot: CMakeFiles/cutefish-screenshot.dir/rule
+matsya-screenshot: CMakeFiles/matsya-screenshot.dir/rule
 
-.PHONY : cutefish-screenshot
+.PHONY : matsya-screenshot
 
 # clean rule for target.
-CMakeFiles/cutefish-screenshot.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cutefish-screenshot.dir/build.make CMakeFiles/cutefish-screenshot.dir/clean
-.PHONY : CMakeFiles/cutefish-screenshot.dir/clean
+CMakeFiles/matsya-screenshot.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/matsya-screenshot.dir/build.make CMakeFiles/matsya-screenshot.dir/clean
+.PHONY : CMakeFiles/matsya-screenshot.dir/clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/cutefish-screenshot_autogen.dir
+# Target rules for target CMakeFiles/matsya-screenshot_autogen.dir
 
 # All Build rule for target.
-CMakeFiles/cutefish-screenshot_autogen.dir/all: CMakeFiles/translations.dir/all
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cutefish-screenshot_autogen.dir/build.make CMakeFiles/cutefish-screenshot_autogen.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cutefish-screenshot_autogen.dir/build.make CMakeFiles/cutefish-screenshot_autogen.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tokyo/clone/cuteclone/screenshot/build/CMakeFiles --progress-num=6 "Built target cutefish-screenshot_autogen"
-.PHONY : CMakeFiles/cutefish-screenshot_autogen.dir/all
+CMakeFiles/matsya-screenshot_autogen.dir/all: CMakeFiles/translations.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/matsya-screenshot_autogen.dir/build.make CMakeFiles/matsya-screenshot_autogen.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/matsya-screenshot_autogen.dir/build.make CMakeFiles/matsya-screenshot_autogen.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tokyo/Documents/GitHub/screenshot/build/CMakeFiles --progress-num=6 "Built target matsya-screenshot_autogen"
+.PHONY : CMakeFiles/matsya-screenshot_autogen.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/cutefish-screenshot_autogen.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/tokyo/clone/cuteclone/screenshot/build/CMakeFiles 95
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/cutefish-screenshot_autogen.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/tokyo/clone/cuteclone/screenshot/build/CMakeFiles 0
-.PHONY : CMakeFiles/cutefish-screenshot_autogen.dir/rule
+CMakeFiles/matsya-screenshot_autogen.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tokyo/Documents/GitHub/screenshot/build/CMakeFiles 95
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/matsya-screenshot_autogen.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tokyo/Documents/GitHub/screenshot/build/CMakeFiles 0
+.PHONY : CMakeFiles/matsya-screenshot_autogen.dir/rule
 
 # Convenience name for target.
-cutefish-screenshot_autogen: CMakeFiles/cutefish-screenshot_autogen.dir/rule
+matsya-screenshot_autogen: CMakeFiles/matsya-screenshot_autogen.dir/rule
 
-.PHONY : cutefish-screenshot_autogen
+.PHONY : matsya-screenshot_autogen
 
 # clean rule for target.
-CMakeFiles/cutefish-screenshot_autogen.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cutefish-screenshot_autogen.dir/build.make CMakeFiles/cutefish-screenshot_autogen.dir/clean
-.PHONY : CMakeFiles/cutefish-screenshot_autogen.dir/clean
+CMakeFiles/matsya-screenshot_autogen.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/matsya-screenshot_autogen.dir/build.make CMakeFiles/matsya-screenshot_autogen.dir/clean
+.PHONY : CMakeFiles/matsya-screenshot_autogen.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

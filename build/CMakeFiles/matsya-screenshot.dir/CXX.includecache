@@ -6,23 +6,23 @@
 
 #IncludeRegexTransform: 
 
-/home/tokyo/clone/cuteclone/screenshot/build/cutefish-screenshot_autogen/EWIEGA46WW/qrc_qml.cpp
+/home/tokyo/Documents/GitHub/screenshot/build/matsya-screenshot_autogen/EWIEGA46WW/qrc_qml.cpp
 
-/home/tokyo/clone/cuteclone/screenshot/build/cutefish-screenshot_autogen/UVLADIE3JM/moc_screenshotview.cpp
+/home/tokyo/Documents/GitHub/screenshot/build/matsya-screenshot_autogen/UVLADIE3JM/moc_screenshotview.cpp
 memory
 -
 ../../../src/screenshotview.h
-/home/tokyo/clone/cuteclone/screenshot/src/screenshotview.h
+/home/tokyo/Documents/GitHub/screenshot/src/screenshotview.h
 QtCore/qbytearray.h
 -
 QtCore/qmetatype.h
 -
 
-/home/tokyo/clone/cuteclone/screenshot/build/cutefish-screenshot_autogen/mocs_compilation.cpp
+/home/tokyo/Documents/GitHub/screenshot/build/matsya-screenshot_autogen/mocs_compilation.cpp
 UVLADIE3JM/moc_screenshotview.cpp
-/home/tokyo/clone/cuteclone/screenshot/build/cutefish-screenshot_autogen/UVLADIE3JM/moc_screenshotview.cpp
+/home/tokyo/Documents/GitHub/screenshot/build/matsya-screenshot_autogen/UVLADIE3JM/moc_screenshotview.cpp
 
-/home/tokyo/clone/cuteclone/screenshot/src/main.cpp
+/home/tokyo/Documents/GitHub/screenshot/src/main.cpp
 QApplication
 -
 QDBusConnection
@@ -36,11 +36,11 @@ QTranslator
 QLocale
 -
 screenshotview.h
-/home/tokyo/clone/cuteclone/screenshot/src/screenshotview.h
+/home/tokyo/Documents/GitHub/screenshot/src/screenshotview.h
 
-/home/tokyo/clone/cuteclone/screenshot/src/screenshotview.cpp
+/home/tokyo/Documents/GitHub/screenshot/src/screenshotview.cpp
 screenshotview.h
-/home/tokyo/clone/cuteclone/screenshot/src/screenshotview.h
+/home/tokyo/Documents/GitHub/screenshot/src/screenshotview.h
 QClipboard
 -
 QEventLoop
@@ -64,7 +64,7 @@ QDBusInterface
 QDBusPendingCall
 -
 
-/home/tokyo/clone/cuteclone/screenshot/src/screenshotview.h
+/home/tokyo/Documents/GitHub/screenshot/src/screenshotview.h
 QQuickView
 -
 

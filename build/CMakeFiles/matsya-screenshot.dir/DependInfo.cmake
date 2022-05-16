@@ -4,10 +4,10 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/tokyo/clone/cuteclone/screenshot/build/cutefish-screenshot_autogen/EWIEGA46WW/qrc_qml.cpp" "/home/tokyo/clone/cuteclone/screenshot/build/CMakeFiles/cutefish-screenshot.dir/cutefish-screenshot_autogen/EWIEGA46WW/qrc_qml.cpp.o"
-  "/home/tokyo/clone/cuteclone/screenshot/build/cutefish-screenshot_autogen/mocs_compilation.cpp" "/home/tokyo/clone/cuteclone/screenshot/build/CMakeFiles/cutefish-screenshot.dir/cutefish-screenshot_autogen/mocs_compilation.cpp.o"
-  "/home/tokyo/clone/cuteclone/screenshot/src/main.cpp" "/home/tokyo/clone/cuteclone/screenshot/build/CMakeFiles/cutefish-screenshot.dir/src/main.cpp.o"
-  "/home/tokyo/clone/cuteclone/screenshot/src/screenshotview.cpp" "/home/tokyo/clone/cuteclone/screenshot/build/CMakeFiles/cutefish-screenshot.dir/src/screenshotview.cpp.o"
+  "/home/tokyo/Documents/GitHub/screenshot/build/matsya-screenshot_autogen/EWIEGA46WW/qrc_qml.cpp" "/home/tokyo/Documents/GitHub/screenshot/build/CMakeFiles/matsya-screenshot.dir/matsya-screenshot_autogen/EWIEGA46WW/qrc_qml.cpp.o"
+  "/home/tokyo/Documents/GitHub/screenshot/build/matsya-screenshot_autogen/mocs_compilation.cpp" "/home/tokyo/Documents/GitHub/screenshot/build/CMakeFiles/matsya-screenshot.dir/matsya-screenshot_autogen/mocs_compilation.cpp.o"
+  "/home/tokyo/Documents/GitHub/screenshot/src/main.cpp" "/home/tokyo/Documents/GitHub/screenshot/build/CMakeFiles/matsya-screenshot.dir/src/main.cpp.o"
+  "/home/tokyo/Documents/GitHub/screenshot/src/screenshotview.cpp" "/home/tokyo/Documents/GitHub/screenshot/build/CMakeFiles/matsya-screenshot.dir/src/screenshotview.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -28,7 +28,7 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "."
   "../"
-  "cutefish-screenshot_autogen/include"
+  "matsya-screenshot_autogen/include"
   "/usr/include/x86_64-linux-gnu/qt5"
   "/usr/include/x86_64-linux-gnu/qt5/QtCore"
   "/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++"

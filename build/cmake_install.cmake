@@ -1,4 +1,4 @@
-# Install script for directory: /home/tokyo/clone/cuteclone/screenshot
+# Install script for directory: /home/tokyo/Documents/GitHub/screenshot
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -44,94 +44,94 @@ endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/usr/share/cutefish-screenshot/translations/ar_AA.qm;/usr/share/cutefish-screenshot/translations/az_AZ.qm;/usr/share/cutefish-screenshot/translations/be_BY.qm;/usr/share/cutefish-screenshot/translations/be_Latn.qm;/usr/share/cutefish-screenshot/translations/bg_BG.qm;/usr/share/cutefish-screenshot/translations/bn_BD.qm;/usr/share/cutefish-screenshot/translations/bs_BA.qm;/usr/share/cutefish-screenshot/translations/cs_CZ.qm;/usr/share/cutefish-screenshot/translations/da_DK.qm;/usr/share/cutefish-screenshot/translations/de_DE.qm;/usr/share/cutefish-screenshot/translations/en_US.qm;/usr/share/cutefish-screenshot/translations/eo_XX.qm;/usr/share/cutefish-screenshot/translations/es_ES.qm;/usr/share/cutefish-screenshot/translations/es_MX.qm;/usr/share/cutefish-screenshot/translations/fa_IR.qm;/usr/share/cutefish-screenshot/translations/fi_FI.qm;/usr/share/cutefish-screenshot/translations/fr_FR.qm;/usr/share/cutefish-screenshot/translations/he_IL.qm;/usr/share/cutefish-screenshot/translations/hi_IN.qm;/usr/share/cutefish-screenshot/translations/hr_HR.qm;/usr/share/cutefish-screenshot/translations/hu_HU.qm;/usr/share/cutefish-screenshot/translations/id_ID.qm;/usr/share/cutefish-screenshot/translations/ie.qm;/usr/share/cutefish-screenshot/translations/it_IT.qm;/usr/share/cutefish-screenshot/translations/ja_JP.qm;/usr/share/cutefish-screenshot/translations/lt_LT.qm;/usr/share/cutefish-screenshot/translations/lv_LV.qm;/usr/share/cutefish-screenshot/translations/mg.qm;/usr/share/cutefish-screenshot/translations/ml_IN.qm;/usr/share/cutefish-screenshot/translations/nb_NO.qm;/usr/share/cutefish-screenshot/translations/ne_NP.qm;/usr/share/cutefish-screenshot/translations/nl_NL.qm;/usr/share/cutefish-screenshot/translations/pl_PL.qm;/usr/share/cutefish-screenshot/translations/pt_BR.qm;/usr/share/cutefish-screenshot/translations/pt_PT.qm;/usr/share/cutefish-screenshot/translations/ro_RO.qm;/usr/share/cutefish-screenshot/translations/ru_RU.qm;/usr/share/cutefish-screenshot/translations/si_LK.qm;/usr/share/cutefish-screenshot/translations/sk_SK.qm;/usr/share/cutefish-screenshot/translations/so.qm;/usr/share/cutefish-screenshot/translations/sr_RS.qm;/usr/share/cutefish-screenshot/translations/sv_SE.qm;/usr/share/cutefish-screenshot/translations/sw.qm;/usr/share/cutefish-screenshot/translations/ta_IN.qm;/usr/share/cutefish-screenshot/translations/tr_TR.qm;/usr/share/cutefish-screenshot/translations/tzm.qm;/usr/share/cutefish-screenshot/translations/uk_UA.qm;/usr/share/cutefish-screenshot/translations/uz_UZ.qm;/usr/share/cutefish-screenshot/translations/vi_VN.qm;/usr/share/cutefish-screenshot/translations/zh_CN.qm;/usr/share/cutefish-screenshot/translations/zh_Hant.qm")
+   "/usr/share/matsya-screenshot/translations/ar_AA.qm;/usr/share/matsya-screenshot/translations/az_AZ.qm;/usr/share/matsya-screenshot/translations/be_BY.qm;/usr/share/matsya-screenshot/translations/be_Latn.qm;/usr/share/matsya-screenshot/translations/bg_BG.qm;/usr/share/matsya-screenshot/translations/bn_BD.qm;/usr/share/matsya-screenshot/translations/bs_BA.qm;/usr/share/matsya-screenshot/translations/cs_CZ.qm;/usr/share/matsya-screenshot/translations/da_DK.qm;/usr/share/matsya-screenshot/translations/de_DE.qm;/usr/share/matsya-screenshot/translations/en_US.qm;/usr/share/matsya-screenshot/translations/eo_XX.qm;/usr/share/matsya-screenshot/translations/es_ES.qm;/usr/share/matsya-screenshot/translations/es_MX.qm;/usr/share/matsya-screenshot/translations/fa_IR.qm;/usr/share/matsya-screenshot/translations/fi_FI.qm;/usr/share/matsya-screenshot/translations/fr_FR.qm;/usr/share/matsya-screenshot/translations/he_IL.qm;/usr/share/matsya-screenshot/translations/hi_IN.qm;/usr/share/matsya-screenshot/translations/hr_HR.qm;/usr/share/matsya-screenshot/translations/hu_HU.qm;/usr/share/matsya-screenshot/translations/id_ID.qm;/usr/share/matsya-screenshot/translations/ie.qm;/usr/share/matsya-screenshot/translations/it_IT.qm;/usr/share/matsya-screenshot/translations/ja_JP.qm;/usr/share/matsya-screenshot/translations/lt_LT.qm;/usr/share/matsya-screenshot/translations/lv_LV.qm;/usr/share/matsya-screenshot/translations/mg.qm;/usr/share/matsya-screenshot/translations/ml_IN.qm;/usr/share/matsya-screenshot/translations/nb_NO.qm;/usr/share/matsya-screenshot/translations/ne_NP.qm;/usr/share/matsya-screenshot/translations/nl_NL.qm;/usr/share/matsya-screenshot/translations/pl_PL.qm;/usr/share/matsya-screenshot/translations/pt_BR.qm;/usr/share/matsya-screenshot/translations/pt_PT.qm;/usr/share/matsya-screenshot/translations/ro_RO.qm;/usr/share/matsya-screenshot/translations/ru_RU.qm;/usr/share/matsya-screenshot/translations/si_LK.qm;/usr/share/matsya-screenshot/translations/sk_SK.qm;/usr/share/matsya-screenshot/translations/so.qm;/usr/share/matsya-screenshot/translations/sr_RS.qm;/usr/share/matsya-screenshot/translations/sv_SE.qm;/usr/share/matsya-screenshot/translations/sw.qm;/usr/share/matsya-screenshot/translations/ta_IN.qm;/usr/share/matsya-screenshot/translations/tr_TR.qm;/usr/share/matsya-screenshot/translations/tzm.qm;/usr/share/matsya-screenshot/translations/uk_UA.qm;/usr/share/matsya-screenshot/translations/uz_UZ.qm;/usr/share/matsya-screenshot/translations/vi_VN.qm;/usr/share/matsya-screenshot/translations/zh_CN.qm;/usr/share/matsya-screenshot/translations/zh_Hant.qm")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/usr/share/cutefish-screenshot/translations" TYPE FILE FILES
-    "/home/tokyo/clone/cuteclone/screenshot/build/ar_AA.qm"
-    "/home/tokyo/clone/cuteclone/screenshot/build/az_AZ.qm"
-    "/home/tokyo/clone/cuteclone/screenshot/build/be_BY.qm"
-    "/home/tokyo/clone/cuteclone/screenshot/build/be_Latn.qm"
-    "/home/tokyo/clone/cuteclone/screenshot/build/bg_BG.qm"
-    "/home/tokyo/clone/cuteclone/screenshot/build/bn_BD.qm"
-    "/home/tokyo/clone/cuteclone/screenshot/build/bs_BA.qm"
-    "/home/tokyo/clone/cuteclone/screenshot/build/cs_CZ.qm"
-    "/home/tokyo/clone/cuteclone/screenshot/build/da_DK.qm"
-    "/home/tokyo/clone/cuteclone/screenshot/build/de_DE.qm"
-    "/home/tokyo/clone/cuteclone/screenshot/build/en_US.qm"
-    "/home/tokyo/clone/cuteclone/screenshot/build/eo_XX.qm"
-    "/home/tokyo/clone/cuteclone/screenshot/build/es_ES.qm"
-    "/home/tokyo/clone/cuteclone/screenshot/build/es_MX.qm"
-    "/home/tokyo/clone/cuteclone/screenshot/build/fa_IR.qm"
-    "/home/tokyo/clone/cuteclone/screenshot/build/fi_FI.qm"
-    "/home/tokyo/clone/cuteclone/screenshot/build/fr_FR.qm"
-    "/home/tokyo/clone/cuteclone/screenshot/build/he_IL.qm"
-    "/home/tokyo/clone/cuteclone/screenshot/build/hi_IN.qm"
-    "/home/tokyo/clone/cuteclone/screenshot/build/hr_HR.qm"
-    "/home/tokyo/clone/cuteclone/screenshot/build/hu_HU.qm"
-    "/home/tokyo/clone/cuteclone/screenshot/build/id_ID.qm"
-    "/home/tokyo/clone/cuteclone/screenshot/build/ie.qm"
-    "/home/tokyo/clone/cuteclone/screenshot/build/it_IT.qm"
-    "/home/tokyo/clone/cuteclone/screenshot/build/ja_JP.qm"
-    "/home/tokyo/clone/cuteclone/screenshot/build/lt_LT.qm"
-    "/home/tokyo/clone/cuteclone/screenshot/build/lv_LV.qm"
-    "/home/tokyo/clone/cuteclone/screenshot/build/mg.qm"
-    "/home/tokyo/clone/cuteclone/screenshot/build/ml_IN.qm"
-    "/home/tokyo/clone/cuteclone/screenshot/build/nb_NO.qm"
-    "/home/tokyo/clone/cuteclone/screenshot/build/ne_NP.qm"
-    "/home/tokyo/clone/cuteclone/screenshot/build/nl_NL.qm"
-    "/home/tokyo/clone/cuteclone/screenshot/build/pl_PL.qm"
-    "/home/tokyo/clone/cuteclone/screenshot/build/pt_BR.qm"
-    "/home/tokyo/clone/cuteclone/screenshot/build/pt_PT.qm"
-    "/home/tokyo/clone/cuteclone/screenshot/build/ro_RO.qm"
-    "/home/tokyo/clone/cuteclone/screenshot/build/ru_RU.qm"
-    "/home/tokyo/clone/cuteclone/screenshot/build/si_LK.qm"
-    "/home/tokyo/clone/cuteclone/screenshot/build/sk_SK.qm"
-    "/home/tokyo/clone/cuteclone/screenshot/build/so.qm"
-    "/home/tokyo/clone/cuteclone/screenshot/build/sr_RS.qm"
-    "/home/tokyo/clone/cuteclone/screenshot/build/sv_SE.qm"
-    "/home/tokyo/clone/cuteclone/screenshot/build/sw.qm"
-    "/home/tokyo/clone/cuteclone/screenshot/build/ta_IN.qm"
-    "/home/tokyo/clone/cuteclone/screenshot/build/tr_TR.qm"
-    "/home/tokyo/clone/cuteclone/screenshot/build/tzm.qm"
-    "/home/tokyo/clone/cuteclone/screenshot/build/uk_UA.qm"
-    "/home/tokyo/clone/cuteclone/screenshot/build/uz_UZ.qm"
-    "/home/tokyo/clone/cuteclone/screenshot/build/vi_VN.qm"
-    "/home/tokyo/clone/cuteclone/screenshot/build/zh_CN.qm"
-    "/home/tokyo/clone/cuteclone/screenshot/build/zh_Hant.qm"
+file(INSTALL DESTINATION "/usr/share/matsya-screenshot/translations" TYPE FILE FILES
+    "/home/tokyo/Documents/GitHub/screenshot/build/ar_AA.qm"
+    "/home/tokyo/Documents/GitHub/screenshot/build/az_AZ.qm"
+    "/home/tokyo/Documents/GitHub/screenshot/build/be_BY.qm"
+    "/home/tokyo/Documents/GitHub/screenshot/build/be_Latn.qm"
+    "/home/tokyo/Documents/GitHub/screenshot/build/bg_BG.qm"
+    "/home/tokyo/Documents/GitHub/screenshot/build/bn_BD.qm"
+    "/home/tokyo/Documents/GitHub/screenshot/build/bs_BA.qm"
+    "/home/tokyo/Documents/GitHub/screenshot/build/cs_CZ.qm"
+    "/home/tokyo/Documents/GitHub/screenshot/build/da_DK.qm"
+    "/home/tokyo/Documents/GitHub/screenshot/build/de_DE.qm"
+    "/home/tokyo/Documents/GitHub/screenshot/build/en_US.qm"
+    "/home/tokyo/Documents/GitHub/screenshot/build/eo_XX.qm"
+    "/home/tokyo/Documents/GitHub/screenshot/build/es_ES.qm"
+    "/home/tokyo/Documents/GitHub/screenshot/build/es_MX.qm"
+    "/home/tokyo/Documents/GitHub/screenshot/build/fa_IR.qm"
+    "/home/tokyo/Documents/GitHub/screenshot/build/fi_FI.qm"
+    "/home/tokyo/Documents/GitHub/screenshot/build/fr_FR.qm"
+    "/home/tokyo/Documents/GitHub/screenshot/build/he_IL.qm"
+    "/home/tokyo/Documents/GitHub/screenshot/build/hi_IN.qm"
+    "/home/tokyo/Documents/GitHub/screenshot/build/hr_HR.qm"
+    "/home/tokyo/Documents/GitHub/screenshot/build/hu_HU.qm"
+    "/home/tokyo/Documents/GitHub/screenshot/build/id_ID.qm"
+    "/home/tokyo/Documents/GitHub/screenshot/build/ie.qm"
+    "/home/tokyo/Documents/GitHub/screenshot/build/it_IT.qm"
+    "/home/tokyo/Documents/GitHub/screenshot/build/ja_JP.qm"
+    "/home/tokyo/Documents/GitHub/screenshot/build/lt_LT.qm"
+    "/home/tokyo/Documents/GitHub/screenshot/build/lv_LV.qm"
+    "/home/tokyo/Documents/GitHub/screenshot/build/mg.qm"
+    "/home/tokyo/Documents/GitHub/screenshot/build/ml_IN.qm"
+    "/home/tokyo/Documents/GitHub/screenshot/build/nb_NO.qm"
+    "/home/tokyo/Documents/GitHub/screenshot/build/ne_NP.qm"
+    "/home/tokyo/Documents/GitHub/screenshot/build/nl_NL.qm"
+    "/home/tokyo/Documents/GitHub/screenshot/build/pl_PL.qm"
+    "/home/tokyo/Documents/GitHub/screenshot/build/pt_BR.qm"
+    "/home/tokyo/Documents/GitHub/screenshot/build/pt_PT.qm"
+    "/home/tokyo/Documents/GitHub/screenshot/build/ro_RO.qm"
+    "/home/tokyo/Documents/GitHub/screenshot/build/ru_RU.qm"
+    "/home/tokyo/Documents/GitHub/screenshot/build/si_LK.qm"
+    "/home/tokyo/Documents/GitHub/screenshot/build/sk_SK.qm"
+    "/home/tokyo/Documents/GitHub/screenshot/build/so.qm"
+    "/home/tokyo/Documents/GitHub/screenshot/build/sr_RS.qm"
+    "/home/tokyo/Documents/GitHub/screenshot/build/sv_SE.qm"
+    "/home/tokyo/Documents/GitHub/screenshot/build/sw.qm"
+    "/home/tokyo/Documents/GitHub/screenshot/build/ta_IN.qm"
+    "/home/tokyo/Documents/GitHub/screenshot/build/tr_TR.qm"
+    "/home/tokyo/Documents/GitHub/screenshot/build/tzm.qm"
+    "/home/tokyo/Documents/GitHub/screenshot/build/uk_UA.qm"
+    "/home/tokyo/Documents/GitHub/screenshot/build/uz_UZ.qm"
+    "/home/tokyo/Documents/GitHub/screenshot/build/vi_VN.qm"
+    "/home/tokyo/Documents/GitHub/screenshot/build/zh_CN.qm"
+    "/home/tokyo/Documents/GitHub/screenshot/build/zh_Hant.qm"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/cutefish-screenshot" AND
-     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/cutefish-screenshot")
+  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/matsya-screenshot" AND
+     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/matsya-screenshot")
     file(RPATH_CHECK
-         FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/cutefish-screenshot"
+         FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/matsya-screenshot"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/tokyo/clone/cuteclone/screenshot/build/cutefish-screenshot")
-  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/cutefish-screenshot" AND
-     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/cutefish-screenshot")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/tokyo/Documents/GitHub/screenshot/build/matsya-screenshot")
+  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/matsya-screenshot" AND
+     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/matsya-screenshot")
     if(CMAKE_INSTALL_DO_STRIP)
-      execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/cutefish-screenshot")
+      execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/matsya-screenshot")
     endif()
   endif()
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xRuntimex" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/usr/share/applications/cutefish-screenshot.desktop")
+   "/usr/share/applications/matsya-screenshot.desktop")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/usr/share/applications" TYPE FILE FILES "/home/tokyo/clone/cuteclone/screenshot/cutefish-screenshot.desktop")
+file(INSTALL DESTINATION "/usr/share/applications" TYPE FILE FILES "/home/tokyo/Documents/GitHub/screenshot/matsya-screenshot.desktop")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -142,5 +142,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/tokyo/clone/cuteclone/screenshot/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/tokyo/Documents/GitHub/screenshot/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
