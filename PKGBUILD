@@ -1,7 +1,7 @@
 
 # Maintainer: Your Name <admin@matsyos.ml>
 pkgname=matsya-screenshot
-pkgver=1
+pkgver=1.1
 pkgrel=1
 pkgdesc="matsya screenshot of Matsya Ui."
 arch=('x86_64')
@@ -13,7 +13,7 @@ depends=(
 	'pkgconfig'
 	'cmake'
 	'extra-cmake-modules'
-	 'kconfig' 'kdecoration' 'kguiaddons' 'kcoreaddons' 'kconfigwidgets' 'kwindowsystem' 'kwayland' 'pkgconf' 'qt5-base' 'qt5-quickcontrols2' 'qt5-x11extras' 'qt5-tools'  'kwindowsystem' 'polkit' 'polkit-qt5' 'xorg-server-devel' 'xf86-input-libinput' 'xf86-input-synaptics'  'qt5-base' 'qt5-quickcontrols2' 'freetype2' 'fontconfig' 'networkmanager-qt' 'modemmanager-qt'
+	 'kf6-config  'kf6-kdecoration' 'kf6-guiaddons' 'kf6-coreaddons' 'kf6-configwidgets' 'kf6-kwindowsystem' 'kf6-kwayland' 'pkgconf' 'qt6-base' 'qt6-declarative' 'qt6-wayland' 'qt6-tools'  'kf6-kwindowsystem' 'polkit' 'polkit-qt6' 'xorg-server-devel' 'xf86-input-libinput' 'xf86-input-synaptics'  'qt6-base' 'qt6-declarative' 'freetype2' 'fontconfig' 'kf6-networkmanager-qt' 'kf6-modemmanager-qt'
 )
 source=('git'+'https://github.com/MatsyaOs/screenshot')
 md5sums=('SKIP')
